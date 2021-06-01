@@ -1,0 +1,23 @@
+StyleSheet for:
+● Upper Container: App Name
+● Middle Container: Text Description
+● Lower container: Button to navigation to Main page
+3. Import the following modules(in Home.js):
+● From react:
+○ React, Component
+● Form react-native:
+○ StyleSheet, Text, View, SafeAreaView, Platform, Image, ScrollView,
+TouchableOpacity
+
+● From react-native-responsive-fontzie:
+○ RFPercentage, RFValue
+export default class Home extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+import { NavigationContainer } from '@react-navigation/native';        
+<NavigationContainer>
+      <Stack.Navigator initialRouteName="Home" screenOptions={{
+        headerShown: false
+      }}> 
+ 
